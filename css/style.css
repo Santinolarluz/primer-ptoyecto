@@ -183,7 +183,7 @@
 
 .productos-destacados div {
   font-family: 'Quicksand', sans-serif;
-  border: grey 2px;
+  border: green 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,6 +191,11 @@
   justify-content: center;
   margin-left: 10px;
   margin-bottom: 60px;
+}
+
+.productos-destacados div:hover{
+  box-shadow: 5px 5px 20px 5px #848484  ;
+  transform: translateY(-3%);
 }
 
 .productos-destacados div img {
@@ -268,9 +273,15 @@ footer p {
 }
 
 .products {
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.products div:hover{
+  box-shadow: 5px 5px 20px 5px #848484  ;
+  transform: translateY(-3%);
 }
 
 /*---------------MEDIA QUERIES----------*/
